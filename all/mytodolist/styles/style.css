@@ -1,0 +1,54 @@
+*{
+padding:0px;
+margin:0px;
+}
+li{
+list-style-type: none;
+}
+
+.todo{
+height:300px;
+width:280px;
+margin:auto;
+text-align:center;
+font-family:Comic Sans MS;
+box-shadow: 0 0 5px;
+}
+
+.todo h1{
+background-color:LimeGreen;
+}
+
+.todo input{
+font-family:Comic Sans MS;
+text-align:left;
+width:276px;
+border:none;
+}
+
+.todos{
+text-align:left;
+background-color:SpringGreen;
+}
+
+.todos li:hover{
+background-color:MediumSpringGreen;
+color:DarkSlateGrey;
+}
+
+.buttons{
+font-family:Comic Sans MS;
+text-align:center;
+}
+
+.buttons button{
+width:60px;
+height:20px;
+background-color:LimeGreen;
+border:1px solid ForestGreen;
+}
+
+.buttons button:hover{
+background-color:YellowGreen;
+color:DarkSlateGrey;
+}
