@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My To-Do List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bad+Script">
+        <link rel="shortcut icon" href="assets/favicon.ico">
+        <link rel="icon" type="image/gif" href="assets/animated_favicon.gif">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+    </head>
+    <body>
+        <div class="todo" id="todo">
+            <h1>My to do list <i id="pensil" class="fas fa-pencil-alt"></i></h1>
+            <input type="text" placeholder="add a list">
+            <ul class="todos">
+                <li><span class="todo-text">Clean the room</span><span class="todo-trash"><i class="fas fa-trash-alt"></i></span></li>
+                <li><span class="todo-text">Go to the cinema</span><span class="todo-trash"><i class="fas fa-trash-alt"></i></span></li>
+            </ul>
+            <div class="buttons" id="buttons">
+                <button class="save">save</button>
+                <button class="clear">clean</button>
+                <button class="showTips">reference</button>
+            </div>
+        </div>
+        <div id = "overlay">
+            <a href="javascript:void(0)" class="closeTips">&times;</a>
+            <ul class="tips">
+                <li>To hide or show the input field, click on the pencil</li>
+                <li>To add a to-do list, write text in the input field and press Enter</li>
+                <li>To delete one item, hover over it and click on the trash can icon</li>
+                <li>To delete all to-do lists, click "Clear"</li>
+                <li>Click "Save" to save your to-do list for later</li>
+            </ul>
+        </div>
+         <script type="text/javascript" src="scripts/script.js"></script>
+    </body>
+</html> 
