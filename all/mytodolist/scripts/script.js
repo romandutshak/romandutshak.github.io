@@ -118,4 +118,3 @@ function onPageLoaded() {
     loadTodos();
 }
 
-document.addEventListener("DOMContentLoaded", onPageLoaded); 
